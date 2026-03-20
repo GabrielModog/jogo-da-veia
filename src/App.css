@@ -1,0 +1,29 @@
+*, html {
+  padding: 0;
+  margin: 0;
+}
+
+body { 
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  font-size: 4vh;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.grid-container {
+  width: 512px;
+  height: 512px;
+  display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+  gap: 4px;
+	padding: 2rem;
+}
