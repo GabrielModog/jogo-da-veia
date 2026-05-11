@@ -1,4 +1,4 @@
-import { renderHook, screen, act } from "@testing-library/react"
+import { renderHook, act } from "@testing-library/react"
 import { describe, it, expect } from "vitest"
 import useGame from "./use-game"
 
